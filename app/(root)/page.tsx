@@ -3,9 +3,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <p>Home</p>
-
+    <div className='h-screen'>
       <UserButton afterSignOutUrl='/'/>
     </div>
   )
